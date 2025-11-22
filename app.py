@@ -414,7 +414,6 @@ def fetch_movie_metadata_from_omdb(filename: str) -> dict:
                     with open(poster_path, "wb") as f:
                         f.write(presp.content)
                     result["poster_path"] = str(poster_path)
-            #except Exception:
                 pass
 
         return result
