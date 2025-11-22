@@ -1,0 +1,38 @@
+name: MIS CodeQL Scan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 6 * * 1'  # Wöchentlicher Scan montags
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛒 Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: 🧠 CodeQL initialisieren
+        uses: github/codeql-action/init@v3
+        with:
+          languages: python
+          queries: security-and-quality
+
+      - name: 🏗️ Manuelles Python-Build
+        run: |
+          echo "Starte CodeQL Python-Build..."
+          python -m compileall .
+          echo "Build abgeschlossen."
+
+      - name: 🔎 CodeQL Analyse
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:python"
