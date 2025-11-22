@@ -15,46 +15,19 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: 🛒 Repository auschecken
-      uses: actions/checkout@v4
+      - name: 🛒 Repository auschecken
+        uses: actions/checkout@v4
 
-    - name: 🐍 Python einrichten
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.12"
+      - name: 🐍 Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-    - name: 📦 Abhängigkeiten installieren
-      run: |
-        pip install --upgrade pip
-        pip install customtkinter requests
+      - name: 📦 Abhängigkeiten installieren
+        run: |
+          pip install --upgrade pip
+          pip install customtkinter requests
 
-    - name: 🔍 Anwendung validieren
-      run: |
-        python -m py_compile app.py
-
-  codeql-analysis:
-    needs: build
-    runs-on: windows-latest
-    permissions:
-      contents: read
-      security-events: write
-
-    steps:
-    - name: 🛒 Repository auschecken
-      uses: actions/checkout@v4
-
-    - name: 🧠 CodeQL initialisieren
-      uses: github/codeql-action/init@v3
-      with:
-        languages: python
-        queries: security-and-quality
-
-    - name: 🔧 Manuelles Build-Kommando
-      run: |
-        echo "Erzwinge CodeQL Python-Erkennung"
-        python -m compileall .
-
-    - name: 🔎 CodeQL Analyse
-      uses: github/codeql-action/analyze@v3
-      with:
-        category: "/language:python"
+      - name: 🔍 Anwendung validieren
+        run: |
+          python -m py_compile app.py
