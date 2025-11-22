@@ -11,8 +11,8 @@
 |---|---|---|---|---|---|
 
 <!-- Quality -->
-|![CodeQL Analysis](https://img.shields.io/badge/CodeQL-Active%20Scan%20✓-2b2bff?logo=github&logoColor=white&labelColor=181717)|![Lint](https://img.shields.io/badge/Lint-Flake8-blue)|![Security](https://img.shields.io/badge/Security-Pass-green)|![Build](https://img.shields.io/github/actions/workflow/status/bylickilabs/Media-Information-System/python-app.yml?label=Build)|![Issues](https://img.shields.io/github/issues/bylickilabs/Media-Information-System)|![Pull Requests](https://img.shields.io/github/issues-pr/bylickilabs/Media-Information-System)|
-|---|---|---|---|---|---|
+|![Lint](https://img.shields.io/badge/Lint-Flake8-blue)|![Security](https://img.shields.io/badge/Security-Pass-green)|![Issues](https://img.shields.io/github/issues/bylickilabs/Media-Information-System)|![Pull Requests](https://img.shields.io/github/issues-pr/bylickilabs/Media-Information-System)|
+|---|---|---|---|
 
 <!-- Misc -->
 |![Dark Mode](https://img.shields.io/badge/UI-Dark%20Mode-111111)|![Localization](https://img.shields.io/badge/Languages-DE%20%7C%20EN-orange)|![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)|![BYLICKILABS](https://img.shields.io/badge/Built%20by-BYLICKILABS-black)|
