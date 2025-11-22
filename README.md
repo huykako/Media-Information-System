@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|---|---|
 
 <!-- Repository Stats -->
-|![Repo Size](https://img.shields.io/github/repo-size/bylickilabs/Media-Information-System)|![Downloads](https://img.shields.io/github/downloads/bylickilabs/Media-Information-System/total)|![CodeQL Analysis](https://img.shields.io/badge/CodeQL-Active%20Scan%20✓-2b2bff?logo=github&logoColor=white&labelColor=181717)|![Lint](https://img.shields.io/badge/Lint-Flake8-blue)|![Security](https://img.shields.io/badge/Security-Pass-green)|![Build](https://img.shields.io/github/actions/workflow/status/bylickilabs/Media-Information-System/python-app.yml?label=Build)|
+|![Repo Size](https://img.shields.io/github/repo-size/bylickilabs/Media-Information-System)|![Downloads](https://img.shields.io/github/downloads/bylickilabs/Media-Information-System/total)|![CodeQL Analysis](https://img.shields.io/badge/CodeQL-Active%20Scan%20✓-2b2bff?logo=github&logoColor=white&labelColor=181717)|![Lint](https://img.shields.io/badge/Lint-Flake8-blue)|![Security](https://img.shields.io/badge/Security-Pass-green)|![Build](https://img.shields.io/github/actions/workflow/status/bylickilabs/Media-Information-System/mis_ci.yml?label=Build)|
 |---|---|---|---|---|---|
 
 <!-- Quality -->
