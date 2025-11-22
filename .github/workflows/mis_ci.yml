@@ -49,13 +49,10 @@ jobs:
         languages: python
         queries: security-and-quality
 
-    - name: 🏗️ Manuelles Build-Skript für CodeQL
+    - name: 🔧 Manuelles Build-Kommando
       run: |
-        echo "Baue Python CodeQL Umgebung..."
-        mkdir build
-        copy app.py build\
-        python -m compileall build
-        echo "CodeQL Build abgeschlossen."
+        echo "Erzwinge CodeQL Python-Erkennung"
+        python -m compileall .
 
     - name: 🔎 CodeQL Analyse
       uses: github/codeql-action/analyze@v3

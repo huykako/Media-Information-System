@@ -1,0 +1,14 @@
+extraction:
+  python:
+    python_setup:
+      version: 3
+    index:
+      include:
+        - app.py
+        - src/
+      exclude:
+        - tests/
+    prepare:
+      packages:
+        - customtkinter
+        - requests
