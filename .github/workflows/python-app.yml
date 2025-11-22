@@ -9,7 +9,6 @@ on:
 permissions:
   contents: read
   security-events: write
-  actions: read
 
 jobs:
   build:
@@ -26,8 +25,8 @@ jobs:
 
     - name: 📦 Abhängigkeiten installieren
       run: |
-        pip install -r requirements.txt || echo "Keine requirements.txt vorhanden"
         pip install customtkinter requests
+        echo "Keine weiteren Anforderungen gefunden"
 
     - name: 🔍 Anwendung validieren
       run: |
@@ -39,18 +38,23 @@ jobs:
     permissions:
       contents: read
       security-events: write
-      actions: read
 
     steps:
     - name: 🛒 Repository auschecken
       uses: actions/checkout@v4
 
-    - name: 🧠 CodeQL Initialisieren
-      uses: github/codeql-action/init@v4
+    - name: 🧠 CodeQL initialisieren
+      uses: github/codeql-action/init@v3
       with:
         languages: python
+        queries: security-and-quality
 
-    - name: 🧪 CodeQL Analysieren
-      uses: github/codeql-action/analyze@v4.31.4
+    - name: 🏗️ Build-Schritt definieren
+      run: |
+        echo "Starte CodeQL Python Build"
+        python -m compileall .
+
+    - name: 🔎 CodeQL Analyse
+      uses: github/codeql-action/analyze@v3
       with:
         category: "/language:python"
