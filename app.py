@@ -21,7 +21,7 @@ GITHUB_URL = "https://github.com/bylickilabs"
 DB_FILE = "media_library.db"
 POSTER_DIR = "posters"
 
-OMDB_API_KEY = "89e61ff2"  # [REGISTER](https://www.omdbapi.com)
+OMDB_API_KEY = "YOUR_API_KEY_HERE"  # [REGISTER](https://www.omdbapi.com)
 
 
 # =========================
